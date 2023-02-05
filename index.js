@@ -12,6 +12,7 @@ app.use(cors())
 const pet_route = require('./routes/pet_route');
 app.use('/pets', pet_route);
 
+
 async function init() {
     try {
         const connection = await mongoose.connect(process.env.MONGODB_URI, { dbName: "pet_adoption" });
