@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/eyalnissim124820/pet-pendant-be#readme",
   "dependencies": {
+    "buffer": "^6.0.3",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "mongodb": "^5.0.0",
